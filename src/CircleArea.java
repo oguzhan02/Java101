@@ -8,7 +8,7 @@ public class CircleArea {
         System.out.println("Enter angle of the circle segment");
         double angle=input.nextDouble();
         double pi=3.14;
-        double area=0;
+        double area;
         area=(pi*radius*radius)*(angle/360);
         System.out.println("Area of circle sector is "+area);
 
