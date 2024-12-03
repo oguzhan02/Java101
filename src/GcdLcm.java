@@ -9,19 +9,30 @@ public class GcdLcm {
         num2 = input.nextInt();
         System.out.println("GCD: " + getGcd(num1, num2));
         System.out.println("LCM: " + getLcm(num1, num2));
-        /* gcd calculation place with while loop
+
+        //gcd and lcm calculation place with while loop
+        /* gcd and lcm calculation place with while loop
         int x = num1 <= num2 ? num1 : num2;
-        int gcd = 1;
+        int gcd = 1,lcm=Math.max(num1,num2);
         while (x > 0) {
-            if (num1 % x == 0 && num2 % x == 0){
-                gcd=x;
+            if (num1 % x == 0 && num2 % x == 0) {
+                gcd = x;
                 break;
             }
-
             x--;
         }
-        System.out.println("gcd:"+gcd);
-        */
+        x = Math.max(num1, num2);
+        while (x <= (num1 * num2)) {
+            if (x % num1 == 0 && x % num2 == 0){
+                lcm=x;
+                break;
+            }
+            x++;
+        }
+        System.out.println("gcd:" + gcd);
+        System.out.println("lcm:"+lcm);
+         */
+
     }
 
     public static int getGcd(int number1, int number2) {
