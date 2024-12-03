@@ -7,7 +7,7 @@ public class FourAndFivePowers {
         System.out.println("Enter a number:");
         number = input.nextInt();
         System.out.println("Powers of 4\t\tPowers of 5:");
-        for (int i = 0; i < number; i++) {
+        for (int i = 0; Math.pow(4,i) < number; i++) {
             double powerOf4 = Math.pow(4, i);
             double powerOf5 = Math.pow(5, i);
 
