@@ -1,6 +1,6 @@
 public class PrimeNumberPrint {
     public static void main(String[] args){
-// this one more than second
+// this one better than second
         for (int i = 2; i <100; i++) {
             boolean isPrime = true;
             for (int j = 2; j * j <= i; j++) {
