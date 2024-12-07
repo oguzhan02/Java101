@@ -2,7 +2,7 @@ package Methods;
 
 import java.util.Scanner;
 
-public class AdvencedCalculator {
+public class AdvancedCalculator {
 
     static int sum(int num1, int num2) {
         return num1 + num2;
