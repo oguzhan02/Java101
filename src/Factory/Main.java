@@ -14,6 +14,8 @@ public class Main {
         System.out.println("Enter employee's hire year:");
         int hireYear = input.nextInt();
         Employee e1= new Employee(name,salary,workHours,hireYear);
+        e1.string();
+
 
     }
 }

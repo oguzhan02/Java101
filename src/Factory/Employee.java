@@ -22,7 +22,6 @@ public class Employee {
         tax();
         bonus();
         raiseSalary();
-        string();
     }
 
 
@@ -63,6 +62,7 @@ public class Employee {
         System.out.println("Raise amount\t:"+this.raiseSalary);
         System.out.println("Salary with tax and extras:\t:"+(this.salary-tax+bonus));
         System.out.println("Final salary:\t:"+newSalary);
+
 
     }
 
